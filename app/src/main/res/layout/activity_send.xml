@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".SendActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputCustomerMSISDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="50dp"
+        android:gravity="center">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/customerMSISDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Customer's  Phone Number"
+            android:inputType="phone"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textColorHint="#51dc87" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/textInputAgentMSISDN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="160dp"
+        android:gravity="center">
+        <android.support.design.widget.TextInputEditText
+            android:id="@+id/agentMSISDN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Agent's Phone Number"
+            android:inputType="phone"
+            android:textSize="24sp"
+            android:textColor="#000000"
+            android:textColorHint="#51dc87" />
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/buttonSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:text="SEND"
+        android:textColor="#ffffff"
+        android:background="#51dc87"
+        />
+
+</RelativeLayout>
